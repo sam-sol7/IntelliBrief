@@ -13,7 +13,7 @@ const Home = () => {
                 <p className="primary-text">
                     AI-Powered Note Summarizer and Quiz Generator!
                 </p>
-                <button className="secundary-button">
+                <button className="secondary-button">
                     Start Learning!
                 </button>
             </div>
