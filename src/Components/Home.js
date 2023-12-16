@@ -6,10 +6,12 @@ const Home = () => {
     <div className="home-container">
         <Navbar/>
         <div className="home-banner-container">
+            {/* <img width="80" height="80" src="https://img.icons8.com/dotty/80/tuition.png" alt="React Image" /> */}
+            {/* <img src="./logo-intellibrief.png" alt="Logo of IntelliBrief"/> */}
             <div className="home-text-section">
                 <h1 className="primary-heading">IntelliBrief</h1>
                 <p className="primary-text">
-                    Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                    AI-Powered Note Summarizer and Quiz Generator!
                 </p>
                 <button className="secundary-button">
                     Start Learning!
