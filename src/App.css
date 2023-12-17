@@ -18,6 +18,21 @@ body {
   background-color: #f6f6f6;
 }
 
+textarea {
+  padding: 30px;
+  font-size: 20px;
+
+  border: none;
+  overflow: auto;
+  outline: none;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+
+  resize: none;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -86,7 +101,9 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  padding-top: 40px;
+  text-align: center;
 }
 .primary-heading {
   font-size: clamp(2rem, 5vw, 4rem);
@@ -115,6 +132,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid black;
 }
 .secondary-button svg {
   margin-left: 0.75rem;
@@ -154,6 +172,54 @@ nav {
   margin-top: 2rem;
   display: flex;
 }
+.noteSumBody {
+  display: flex;
+  flex-direction: column;
+  padding: 90px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+}
+#submit-form {
+  font-size: 25px;
+  padding: 1rem 2.5rem;
+  border: 0px;
+  background-color: #f6f6f6;
+  outline: none;
+  /* border: 1px; */
+  border-color: black;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: black;
+}
+
+.ai-response {
+  font-size: 20px;
+  padding: 25px;
+  border: 0px;
+  background-color: white;
+  outline: none;
+  /* border: 1px; */
+  border-color: black;
+  /* cursor: pointer; */
+  /* font-weight: 300; */
+  color: black;
+  height: 200px;
+}
+
+#submit-form:hover {
+  background-color: rgb(234, 234, 234);
+}
+
+#textarea-label {
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+/* #note-input {
+} */
 .watch-video-button {
   margin-left: 2rem;
   background-color: transparent;

@@ -7,6 +7,8 @@ import {
 
 import App from './App';
 import NoteSummarizer from './Pages/NoteSummarizer';
+import QuizGenerator from './Pages/QuizGenerator';
+import About from './Pages/About';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +18,14 @@ const router = createBrowserRouter([
   {
     path: "/NoteSummarizer",
     element: <NoteSummarizer />,
+  },
+  {
+    path: "/QuizGenerator",
+    element: <QuizGenerator />,
+  },
+  {
+    path: "/About",
+    element: <About />,
   },
 ]);
 
